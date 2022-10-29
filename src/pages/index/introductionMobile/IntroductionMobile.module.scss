@@ -1,0 +1,101 @@
+.container{
+  background-image: url("../../../images/Mask Group 1.png");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+
+  display: none;
+
+  @media only screen and (max-width: 650px) {
+    display: block;
+  }
+
+  .logo-section{
+    text-align: center;
+    padding-top: 37px;
+
+    img{
+      width: 97px;
+      height: 108px;
+    }
+  }
+
+  .mobile-dashboard{
+    text-align: center;
+    margin: 0;
+
+    @media only screen and (max-width: 1339px) {
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+  }
+
+  .second{
+    position: relative;
+    padding-left: 10.34vw !important;
+  }
+
+}
+
+.title{
+  position:absolute;
+  top: -13vh;
+  font-family: 'Ubuntu-Bold', sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 0;
+  color: var(--primary-color);
+
+  @media only screen and (max-width: 653px){
+    top:-12vh;
+    line-height: 42px;
+  }
+}
+
+.introductory-text{
+
+  @media only screen and (max-width: 1339px){
+    font-family: "Ubuntu-Light", sans-serif;
+    color:var(--text-color-3);
+    font-size: 16px;
+    line-height: 24px;
+    width: 314px;
+    margin-top: 1.85vh;
+    margin-bottom: 2.38vh;
+    padding-top:20px ;
+  }
+
+  @media only screen and (max-width: 844px){
+    width: 314px;
+    margin-top: 1.85vh;
+    margin-bottom: 2.38vh;
+    padding-top:5px;
+  }
+
+
+  @media only screen and (max-width: 653px){
+    width: 314px;
+    margin-bottom: 2.38vh;
+    padding-top:20px;
+  }
+}
+
+.download-section{
+
+  text-align: center;
+  margin-top: 2.25vh;
+
+  img{
+    padding-bottom: 1.75vh;
+  }
+  h4{
+    margin: 10px 0 0 0;
+    font-family: "Ubuntu-Bold", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--primary-color);
+    cursor: pointer;
+  }
+}

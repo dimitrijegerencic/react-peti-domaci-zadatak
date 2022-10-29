@@ -1,0 +1,20 @@
+.button{
+    color: white;
+    border-radius: 0px 12px;
+    opacity: 1;
+    box-shadow: 0px 50px 50px #FFFFFF48;
+    background:transparent linear-gradient(257deg, #F54F5A 22%, #C66FE4 63%);
+    width: 248px;
+    height: 65px;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Ubuntu-Bold', sans-serif;
+    padding: 21px 45px;
+    cursor: pointer;
+
+    @media only screen and (max-width: 1339px){
+        width: 231px;
+        padding: 21px 37px;
+    }
+}

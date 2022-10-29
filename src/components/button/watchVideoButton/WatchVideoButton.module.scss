@@ -1,0 +1,62 @@
+.watch-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    outline: none;
+    background-color: transparent;
+    border: var(--primary-color) 2px solid;
+    border-radius: 0 12px ;
+    cursor: pointer;
+    width: 238px;
+    height: 65px;
+
+  @media only screen and (max-width: 650px){
+    width: 65px;
+    height: 65px;
+    right: 25px;
+  }
+
+.left{
+  width: 20%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media only screen and (max-width: 650px){
+    width: 100%;
+    height: auto;
+  }
+
+  img{
+    width: 60%;
+    height: auto;
+    padding-left: 24px;
+
+    @media only screen and (max-width: 650px){
+      padding: 0;
+    }
+  }
+
+ }
+  .right{
+    width: 80%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #30306D !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Ubuntu-Bold", sans-serif;
+
+    @media only screen and (max-width: 650px){
+      display: none;
+    }
+  }
+
+}

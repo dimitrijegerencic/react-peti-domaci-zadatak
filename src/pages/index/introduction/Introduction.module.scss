@@ -1,0 +1,92 @@
+
+.container{
+    background-image: url("../../../images/Mask Group 10.svg");
+    background-size: cover;
+    height: 100%;
+    display: flex;
+
+    @media only screen and (max-width: 650px){
+       display: none;
+    }
+
+    &>div:first-of-type{
+        width: 35%;
+        padding-left: 14.6vw;
+        padding-top: 20.46vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+
+        @media only screen and (max-width: 950px){
+            width: 25%;
+            padding-left: 11.6vw;
+            padding-top: 15.46vh;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+
+    &>div:last-of-type{
+        width: 75%;
+        padding-top: 0.87vh;
+
+        @media only screen and (max-width: 950px){
+            width: 75%;
+        }
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+}
+
+.title{
+    font-family: 'Ubuntu-Bold', sans-serif;
+    line-height: 54px;
+    font-size: 46px;
+    color: var(--primary-color);
+    margin-top: 81px;
+    margin-bottom: 30px;
+    width: 380px;
+
+    @media only screen and (max-width: 950px){
+        font-size: 36px;
+    }
+}
+
+.introductory-text{
+    font-size:18px;
+    line-height: 34px;
+    font-family: "Ubuntu-Light", sans-serif;
+    color: var(--text-color-3);
+    width: 665px;
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    @media only screen and (max-width: 950px){
+        width: 350px;
+    }
+
+}
+
+.download-section{
+    display: flex;
+    gap: 0.78vw;
+    padding-top: 20.53vh;
+    padding-bottom: 6.90vh;
+    
+    img{
+        width: 218px;
+        height: 64px;
+        cursor: pointer;
+    }
+
+    @media only screen and (max-width: 950px){
+        padding-top: 10.46vh;
+    }
+}
+

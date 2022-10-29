@@ -1,0 +1,51 @@
+.container{
+  text-align: center;
+  margin-bottom: 17.96vh;
+
+  img{
+    width: 445px;
+    height: 289px;
+  }
+
+  @media only screen and (max-width: 1339px){
+    img{
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    margin-bottom: 4.90vh;
+
+  }
+
+  .title-text{
+
+    h1{
+      font-family: "Ubuntu-Bold", sans-serif;
+      font-size: 46px;
+      line-height: 54px;
+      color: var(--primary-color);
+      padding: 0vh;
+
+      @media only screen and (max-width: 1339px){
+        font-size: 26px;
+        line-height: 31px;
+      }
+    }
+
+    p{
+      font-family: "Ubuntu-Light", sans-serif;
+      font-size: 18px;
+      line-height: 34px;
+      color: var(--text-color-2);
+      padding: 0vh;
+
+      @media only screen and (max-width: 1339px){
+        font-size: 16px;
+        line-height: 34px;
+        margin-top: 1.66vh;
+      }
+    }
+  }
+
+
+}

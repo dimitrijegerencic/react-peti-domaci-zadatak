@@ -1,0 +1,60 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 148px;
+  background-image: url("../../../images/Mask Group 12.svg");
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  width: 80.83vw;
+  height: 300px;
+  border-radius: 40px;
+
+  @media only screen and (max-width: 1339px){
+    width: 100%;
+    background-size: 30%;
+    margin-bottom: 5.70vh;
+  }
+
+  h1{
+    font-family: "Ubuntu-Bold", sans-serif;
+    font-size: 46px;
+    line-height: 54px;
+    color: white;
+    text-align: center;
+    padding-top: 4.07vh;
+    padding-bottom: 4.62vh;
+
+    @media only screen and (max-width: 1339px){
+      font-size: 24px;
+      line-height: 31px;
+      margin-top: 4.90vh;
+
+    }
+  }
+
+  span{
+    font-family: "Yellowtail", sans-serif;
+    font-size: 64px;
+    line-height: 54px;
+    color: var(--primary-color);
+
+    @media only screen and (max-width: 1339px){
+      font-size: 37px;
+      line-height: 31px;
+    }
+  }
+
+  .btn-section{
+    text-align: center;
+    margin-bottom: 7.83vh;
+  }
+}
+
+
+
