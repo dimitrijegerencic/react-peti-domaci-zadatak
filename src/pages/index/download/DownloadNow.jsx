@@ -8,11 +8,11 @@ const DownloadNow = () => {
     const downloads = [
         {
             image : downloadImg1,
-            alt : 'EU4Tech'
+            alt : 'Google Play'
         },
         {
             image : downloadImg2,
-            alt : 'Boost'
+            alt : 'App Store'
         }
     ]
 
